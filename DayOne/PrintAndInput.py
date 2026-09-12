@@ -8,9 +8,10 @@ conform = print("thank you for join with victus " + UserName )
 
 # if and else condition
 
-num = int(input("pls enter you age to verify : "))
+num = int(input("pls enter you age to verify " \
+": "))
 
 if age>18:
     print(UserName + " you are eligible for the duty")
 else :
-    print("sorry" + UserName + "you are not eligible for the duty")
+    print("sorry " + UserName + "you are not eligible for the duty")
